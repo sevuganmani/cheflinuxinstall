@@ -5,3 +5,8 @@ if system "rpm -qa | grep tree"
 else
   puts 'rpm does not exist'
 end
+if system "rpm -qa | grep wget"
+  puts 'rpm exist'
+else
+  puts 'rpm does not exist'
+end
